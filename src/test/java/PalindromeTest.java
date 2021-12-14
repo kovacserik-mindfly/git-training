@@ -8,4 +8,6 @@ public class PalindromeTest {
         Palindrome palindrome = new Palindrome();
         Assertions.assertTrue(palindrome.isPalindrome("lehel"));
     }
+
+
 }
