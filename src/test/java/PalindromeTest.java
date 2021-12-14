@@ -9,5 +9,11 @@ public class PalindromeTest {
         Assertions.assertTrue(palindrome.isPalindrome("lehel"));
     }
 
+    @Test
+    public void testPalindromeBadCase(){
+        Palindrome palindrome = new Palindrome();
+        Assertions.assertFalse(palindrome.isPalindrome("bad"));
+    }
+
 
 }
