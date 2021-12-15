@@ -7,6 +7,7 @@ public class PalindromeTest {
     public void testPalindrome(){
         Palindrome palindrome = new Palindrome();
         Assertions.assertTrue(palindrome.isPalindrome("lehel"));
+        Assertions.assertTrue(palindrome.isPalindrome("aaaaagit "));
     }
 
 
